@@ -1,0 +1,32 @@
+<h5>MEDICAL CLAIMS_____________________________________</h5>
+<h5  class="name">{{inj.name}}</h5>
+<p>{{inj.leaves}} <br> {{inj.date}} <br><button class="btn btn-success">Details</button></p>
+
+
+
+
+
+
+<h5 class="head">DISABILITY___________________________________________</h5>
+<p  class="type1" > <span >Disability Type:</span> {{d.type}}</p>
+<p class=type1> <span>Disability:</span> {{d.disablity1}}</p>
+<p class="type1"><span>Description/Reason:</span>{{d.reason}}</p>
+
+
+
+<h5 class="head">Dependency Details__________________________________________</h5>
+<div class="line">
+    <div class="list-bullet">
+  
+<ul  > 
+
+     <div class="line-5" *ngFor="let  d1 of dependency">
+  
+         <h5  class=dep id="oval-5" >{{d1.title}} </h5>
+         <p class="dep" id="description"> {{d1.relative}}</p>
+         <button class="dep" id="btn ">Details</button>
+     </div>
+     </ul>
+    </div>
+    </div>
+    

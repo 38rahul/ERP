@@ -1,0 +1,76 @@
+.box{
+    background-color: white;
+width: 800px;
+height:600px;
+border: 2px solid #20BF6B;
+margin: 25px;
+float: right;}
+.box2{
+    background-color:#20BF6B;
+    height:600px;
+    width:300px;   
+}
+.icon
+{
+    font-size:120px;color:white;
+}
+
+.month {
+  width: 100%;
+  background: #1abc9c;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+.shift{
+  padding: 300px 200px 50px 20px;
+}

@@ -1,0 +1,26 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+        <div class="row" style="background-color:white;height:70px;border:2px solid lavender;"></div>
+                <div class="row" style="background-color:white;height:930px;border:2px solid lavender;">
+                  
+                  <app-navigation (featureselected)="onnavigate($event)"></app-navigation>
+          
+                      <app-information-header *ngIf="loadedfeature==='detail'"   (fselected)="navigation($event)" ></app-information-header>
+                    <app-leave-request *ngIf="loadedfeature==='request'" ></app-leave-request>
+
+                      <app-hr *ngIf="loadedfeature==='detail'" ></app-hr> 
+                      <div *ngIf="loadedfeature==='detail'">       
+                      <app-selfservice1 *ngIf="loadf==='a'" ></app-selfservice1> 
+                  <app-documents *ngIf="loadf==='f'"></app-documents>
+                 <app-header *ngIf="loadf==='b'"></app-header>
+                 <app-training-certification *ngIf="loadf==='c'"></app-training-certification>
+                 <app-medical *ngIf="loadf==='e'"></app-medical>
+                 <app-others *ngIf="loadf==='d'"></app-others>
+                </div>
+</div>
+</div>
+</div>
+</div>
+

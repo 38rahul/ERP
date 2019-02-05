@@ -1,0 +1,83 @@
+h5{
+    padding-left: 145px;
+    color:#20BF6B;
+    padding-bottom: 3px;
+  }
+  ul.training{
+    padding-left: 150px;
+    margin-top: -6px;
+  
+  }
+  ul.training li{
+    padding-left:0;
+    margin-bottom: 2em;
+    list-style: non;
+  }
+  .title{
+    width: 479.36px;
+    color: #20BF6B;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 15px;
+  display:block;
+  margin-left : 15px;
+  margin-bottom: 5px;
+  font-weight:bold;
+  
+  }
+  .description{
+    margin-bottom:-2px;
+    margin-left:15px;
+  }
+  .green-line {
+    margin-top: 15px;
+    background:#20BF6B;
+    z-index:-1;
+    width:3px;
+    height:48.75%;
+    position:absolute;
+    left:200px;
+  }
+  h5{
+    padding-left: 130px;
+    color:#20BF6B;
+    padding-bottom: 3px;
+   
+  }
+  ul.certification{
+    padding-left: 150px;
+    margin-top: -6px;
+  
+  }
+  ul.certification li{
+    padding-left:0;
+    margin-bottom: 2em;
+    list-style: non;
+  }
+  .event1{
+      width: 479.36px;
+      color: #20BF6B;
+      font-family: Lato;
+      font-size: 16px;
+        line-height: 15px;
+    display:block;
+    margin-left : 15px;
+    margin-bottom: 5px;
+    font-weight:bold;
+  
+  }
+  
+  .description{
+    margin-bottom:-2px;
+    margin-left:15px;
+  }
+  .btn{
+    background-color:#20BF6B;
+    
+  height: 18.42px;
+      width: 50.35px;
+    margin-left: 15px;
+    border-radius: 5.5px;
+  }
+  
+  

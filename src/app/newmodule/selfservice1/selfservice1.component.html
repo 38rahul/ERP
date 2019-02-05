@@ -1,0 +1,14 @@
+<!----<div *ngFor="let key of objectKeys(items)">{{key + ' : ' + items[key]}}</div>
+<div *ngFor="let value of objects(var)">{{value + ' : ' + var[value]}}</div>
+-->
+
+<div class="y">
+    <div *ngFor=" let chunk of demo" class="mdl-cell mdl-cell--4-col">
+        <div id="x">{{chunk.contact}}</div>
+        <div> <div *ngFor=" let cause of chunk.values | keys">
+                <b>{{chunk.name}} </b>{{cause}}
+        
+        </div></div>
+       
+    </div>
+  </div>

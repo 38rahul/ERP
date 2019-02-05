@@ -1,0 +1,39 @@
+<div id="x">Personal Details_________________________<i class="far fa-edit"></i></div>
+<div class="pd">
+    <div *ngFor="let d of Document">
+<div class="dot"></div><span class="font"><b>Passport</b></span><br>
+<span>{{d.Passport}}</span>
+<div>{{d.date}}</div></div>
+<div><button class="button">View</button></div>
+</div>
+<div class="pd">
+    <div *ngFor="let d of Document">
+<div class="dot"></div><span class="font"><b>Adhaarcard</b></span><br>
+<span>{{d.Adhaarcard}}</span>
+<div>{{d.date}}</div></div>
+<div><button class="button">View</button></div>
+</div>
+<div id="x">Official Documents_________________________<i class="far fa-edit"></i></div>
+
+    <div class="pd">
+    <div *ngFor="let d of Document">
+<div class="dot"></div><span class="font"><b>Official Document</b></span><br>
+<span>{{d.OfficialDocument}}</span>
+<div>{{d.date}}</div></div>
+<div><button class="button">View</button></div>
+</div>
+<div class="pd">
+    <div *ngFor="let d of Document">
+<div class="dot"></div><span class="font"><b>Official Document</b></span><br>
+<span>{{d.Official2}}</span>
+<div>{{d.date}}</div></div>
+<div><button class="button">View</button></div>
+</div>
+
+<div class="sidebar" style="width: 200px;">
+    <div *ngFor="let d of Document">
+<div class="dot"></div><span class="font"><b>Voter Card</b></span><br>
+<span>{{d.Votercard}}</span>
+<div>{{d.date}}</div></div>
+<div><button class="button">View</button></div>
+</div>

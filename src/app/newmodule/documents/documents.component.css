@@ -1,0 +1,44 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #20BF6B;
+    border-radius: 50%;
+    display: inline-block;
+    border:5px solid lavender;
+  }
+  .button {
+    background-color:#20BF6B ;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .pd button:hover {
+    background-color:green;
+    border-radius:25px 25px 25px 25px;
+  }
+  .pd{
+    padding: 40px 10px 2px 120px;
+  }
+  .font{
+    color:#20BF6B ;
+    font-size: 20px;
+
+  }
+  #x{
+color:#20BF6B ;
+padding-left: 120px;
+padding-top: 20px;
+  }
+  li.rtl {
+    direction: rtl;
+  }
+  .pd2{
+  float:rigt;
+  }

@@ -1,0 +1,31 @@
+
+<h5>TRAININGS___________________________________</h5>
+<div class="list-wrapper">
+    <div class="green-line"></div>
+    <div class="list-bullet"></div>
+    <div class="list-item"> </div>
+      <ul class="training"> 
+         <div class=line *ngFor="let t of train">
+            <h4
+              class="title">{{t.title}}
+            </h4>
+            <p class=description>
+              <span>{{t.name}}</span><br>
+              <span>{{t.year}}</span>
+            </p>
+          </div>
+        </ul>
+<h5>CERTIFICATIONS_____________________________</h5>
+  <div class="green-line1"></div>
+  <div class="list-bullet"></div>
+  <div class="list-item">
+<ul class= "certification">
+ <div  *ngFor="let c of cert" > 
+   
+    <h3 class="event1"> {{c.title}} </h3>
+    <p class="description">  {{c.year}} </p>
+    <button  class="btn btn-success">Details</button>  
+ </div> 
+</ul>
+</div>
+</div>
