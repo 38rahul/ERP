@@ -17,7 +17,7 @@ float: right;}
 
 .month {
   width: 100%;
-  background: #1abc9c;
+  background:green;
 }
 
 .month ul {
@@ -26,8 +26,10 @@ float: right;}
 }
 
 .month ul li {
+  padding:0px 0px 50px 50px;
+  width:200px;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -45,8 +47,9 @@ float: right;}
 }
 
 .weekdays li {
+  display: inline-block;
   width: 13.6%;
-  color: #666;
+  color: white;
   text-align: center;
 }
 
@@ -72,5 +75,21 @@ float: right;}
   color: white !important
 }
 .shift{
-  padding: 300px 200px 50px 20px;
+  padding: 100px 100px 500px 100px;
+}
+.datecolor
+{
+ background-color:#1abc9c;
+}
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
 }
