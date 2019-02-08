@@ -1,0 +1,58 @@
+.position-relative {
+    position: absolute;
+    height: 79px;	width: 316px;	color: #4A4A4A;	font-family: Lato;	font-size: 12px;	line-height: 20px;
+    margin-bottom: 36px;
+    margin-left: 10px;
+  
+  }
+.grp1{
+    height: 420;
+    width: 346;
+}
+.one:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    margin-left: -10px;
+    top: 30px;
+    margin-top: 2px;
+    background-color: #20BF6B;
+    width: 4px;
+    height: 90%;
+  }
+  .head{
+    color:	#20BF6B;
+padding-top:10px;
+padding-right: 5px;
+margin-left: 10px;
+    
+}
+  .green-shadow-circle {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 1px #ccc;
+    top: 3;
+    left: -21px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .green-shadow-circle:after {
+    content: '';
+    background-color: #20BF6B;
+    position: absolute;
+    left: 6.5px;
+    border-radius: 50%;
+    top: 7px;
+    height: 50%;
+    width: 50%;
+  }
+  .hr{
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .value{
+    padding-left: 10px;
+  }

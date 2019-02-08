@@ -9,12 +9,16 @@ import { ParentComponent } from './parent/parent.component';
 import { HrComponent } from './hr/hr.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LeaveRequestComponent,
     ParentComponent,
     HrComponent,
+
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -22,6 +26,6 @@ import { HrComponent } from './hr/hr.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent ],
 })
 export class AppModule { }

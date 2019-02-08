@@ -1,0 +1,30 @@
+.first{
+    padding:3px;
+    margin-top:20px;
+    margin-left: 30px;
+    background-color: #cccc;
+    width: 254px;
+    height:70px;
+    border-radius: 0 35px 35px 0;	background-color: #FFFFFF;	box-shadow: 0 0 8px 0 #D8D8D8;
+}
+  .p{
+      height: 179px;
+      width: 30px;
+      color: #000000;
+      font-family: Lato;
+     font-size: 8px;
+     line-height: 10px;	
+    text-align: justify; 
+   
+    
+  }
+  .name{
+    height: 19px;	width: 98px;
+        color: #20BF6B;	
+        font-family: Lato;	
+        font-size: 15px;	
+        font-weight: 500;	
+        line-height: 18px;
+    }
+    .shape {height: 10.15px;
+        	width: 19.3px;}

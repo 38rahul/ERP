@@ -1,83 +1,79 @@
-h5{
-    padding-left: 145px;
-    color:#20BF6B;
-    padding-bottom: 3px;
+.position-relative {
+    position: relative;
+    height: 79px;	width: 420px;	height: 60px;	width: 266.86px;	color: #4A4A4A;	font-family: Lato;
+    	font-size: 12px;	line-height: 20px;margin-bottom: 12px;
   }
-  ul.training{
-    padding-left: 150px;
-    margin-top: -6px;
-  
-  }
-  ul.training li{
-    padding-left:0;
-    margin-bottom: 2em;
-    list-style: non;
-  }
-  .title{
-    width: 479.36px;
-    color: #20BF6B;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 15px;
-  display:block;
-  margin-left : 15px;
-  margin-bottom: 5px;
-  font-weight:bold;
-  
-  }
-  .description{
-    margin-bottom:-2px;
-    margin-left:15px;
-  }
-  .green-line {
-    margin-top: 15px;
-    background:#20BF6B;
-    z-index:-1;
-    width:3px;
-    height:48.75%;
-    position:absolute;
-    left:200px;
-  }
-  h5{
-    padding-left: 130px;
-    color:#20BF6B;
-    padding-bottom: 3px;
+  .grp {	height: 400px;	width: 420px;}
+  .one{
+   width: 316px;
+   height: 79px; 
    
-  }
-  ul.certification{
-    padding-left: 150px;
-    margin-top: -6px;
   
+   padding-bottom: 26px;
+   padding-left:23.8px;
   }
-  ul.certification li{
-    padding-left:0;
-    margin-bottom: 2em;
-    list-style: non;
-  }
-  .event1{
-      width: 479.36px;
-      color: #20BF6B;
-      font-family: Lato;
-      font-size: 16px;
-        line-height: 15px;
-    display:block;
-    margin-left : 15px;
-    margin-bottom: 5px;
-    font-weight:bold;
-  
+  .training{
+    padding-bottom: 5px;
   }
   
-  .description{
-    margin-bottom:-2px;
-    margin-left:15px;
+  .head{
+      color:	#20BF6B;
+  padding-top:10px;
+      
   }
-  .btn{
-    background-color:#20BF6B;
-    
-  height: 18.42px;
-      width: 50.35px;
-    margin-left: 15px;
-    border-radius: 5.5px;
+  .train{
+    color:#20BF6B;
+  }
+  .one:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin-top: 2px;
+    margin-right: 3px;
+    background-color: #20BF6B;
+    width: 4px;
+    height: 67%;
   }
   
+  .green-shadow-circle {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 1px #ccc;
+    top: 0;
+    left: -10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
   
+  .green-shadow-circle:after {
+    content: '';
+    background-color: #20BF6B;
+    position: absolute;
+    left: 6.5px;
+    border-radius: 50%;
+    top: 7px;
+    height: 50%;
+    width: 50%;
+  }
+  .two{
+    width: 479.36px;
+    height: 79px;
+  } 
+  .two:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin-top: 2px;
+    background-color: #20BF6B;
+    width: 4px;
+    height: 52%;
+  }
+  .cert{
+    color:#20BF6B;
+  }
+  .btn{height: 18.42px;	width: 50.35px;	border-radius: 5.5px;	background-color: #20BF6B;color: #fff ; font-size: 10px;
+    	line-height: 1em;	text-align: center;}

@@ -1,5 +1,8 @@
 .a{
     padding:20px 200px 0px 250px;
+    height: 1178;
+    width: 640;
+    
      
 }
 .b{
@@ -11,7 +14,7 @@ hr.new1 {
     border-top: 2px solid lavender;
     margin-right: 10px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     width:700px;
   }
   .hrpd{

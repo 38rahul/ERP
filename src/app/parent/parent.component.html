@@ -9,13 +9,15 @@
           
                       <app-information-header *ngIf="loadedfeature==='detail'"   (fselected)="navigation($event)" ></app-information-header>
                     <app-leave-request *ngIf="loadedfeature==='request'" ></app-leave-request>
+                    <app-servicerequest *ngIf="loadedfeature==='leave'"></app-servicerequest>
 
                       <app-hr *ngIf="loadedfeature==='detail'" ></app-hr> 
                       <div *ngIf="loadedfeature==='detail'">       
                       <app-selfservice1 *ngIf="loadf==='a'" ></app-selfservice1> 
                   <app-documents *ngIf="loadf==='f'"></app-documents>
-                 <app-header *ngIf="loadf==='b'"></app-header>
+                
                  <app-training-certification *ngIf="loadf==='c'"></app-training-certification>
+                 <app-experience *ngIf="loadf==='b'"></app-experience>
                  <app-medical *ngIf="loadf==='e'"></app-medical>
                  <app-others *ngIf="loadf==='d'"></app-others>
                 </div>

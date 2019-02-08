@@ -1,31 +1,33 @@
+<div class="gpr1" id="line">
 
-<h5>TRAININGS___________________________________</h5>
-<div class="list-wrapper">
-    <div class="green-line"></div>
-    <div class="list-bullet"></div>
-    <div class="list-item"> </div>
-      <ul class="training"> 
-         <div class=line *ngFor="let t of train">
-            <h4
-              class="title">{{t.title}}
-            </h4>
-            <p class=description>
-              <span>{{t.name}}</span><br>
-              <span>{{t.year}}</span>
-            </p>
-          </div>
-        </ul>
-<h5>CERTIFICATIONS_____________________________</h5>
-  <div class="green-line1"></div>
-  <div class="list-bullet"></div>
-  <div class="list-item">
-<ul class= "certification">
- <div  *ngFor="let c of cert" > 
    
-    <h3 class="event1"> {{c.title}} </h3>
-    <p class="description">  {{c.year}} </p>
-    <button  class="btn btn-success">Details</button>  
- </div> 
-</ul>
+ <div class="one position-relative" *ngFor=" let chunk of causes">
+  
+   <span class="green-shadow-circle"> </span>
+     <div  class="head"> <h6>{{chunk.title}}</h6></div>
+     <h6><strong>{{chunk.name}}</strong></h6>
+            
+            <div  *ngFor=" let cause of chunk.values | keys">
+                 <span >{{cause}}</span>
+     
+     </div>
+ </div>
 </div>
-</div>
+
+
+<div class="gpr" id="line2">
+       
+   <div class="one position-relative" *ngFor=" let cert of CERTIFICATION">
+     
+     
+       <span class="green-shadow-circle"> </span>  
+
+       <div  class="head"><h6>{{cert.name}}</h6> </div>
+              
+              <div  *ngFor=" let ce of cert.values | keys">
+                   <span >{{ce}}</span> <br>
+                   <button class="btn">Details</button>
+       
+       </div>
+   </div>
+ </div>

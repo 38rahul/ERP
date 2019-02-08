@@ -1,0 +1,14 @@
+<div class="gpr1" id="line">
+       
+   <div class="one position-relative" *ngFor=" let job of EXPERIENCE">
+      <span class="green-shadow-circle"> </span>
+     
+      <div  class="head"> <h6>{{job.title}}</h6></div>
+      <div  class="hr" ><h6>{{job.name}}</h6></div>
+       
+              <div  *ngFor=" let j of job.values | keys">
+                   <span  class="value">{{j}}</span>
+       
+             </div>
+      </div>
+ </div>

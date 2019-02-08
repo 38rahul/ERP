@@ -1,8 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Training} from './training';
-import {TRAIN} from './mock-training-certification';
-import {Certification} from './certification';
-import {CERT} from './mock-training-certification';
 
 @Component({
   selector: 'app-training-certification',
@@ -10,15 +6,70 @@ import {CERT} from './mock-training-certification';
   styleUrls: ['./training-certification.component.css']
 })
 export class TrainingCertificationComponent implements OnInit {
-  train=TRAIN;
-training :Training ={title:'Attitudinal & Behaviourial Training',name:'Ripples Learning Services',year:2004}
+  causes: any = [
+    {
+    
+        title: 'Attitudinal & Beahvioural Training',
+        name:'Ripples Learning Services',
+        values: {
+          
+          '2004': true,
+        }
+    },
+    {
+        title: 'Leadership Management Training',
+        name:'Multispectra Constultants',
+        values: {
+        
+            '2005': true,
+            
+        }
+            
+    },
+    
+    {
+        title: 'Personality Developement Training',
+        name:'Nirmal Holdings Ltd',
+        values: {
+            
+            '2005': true,
+            
+        },
+    },
+    {
+      title: 'Human Resource Management Training',
+      name:'ASMS Group',
+      values: {
+          
+          '2006': false,
+          
+      },
+  },
+];
+CERTIFICATION:any=[
 
-cert = CERT;
+{
+    
+      name: 'Certified Professional in Learning and Performance',
+      values: {  'June, 2006': true, }
+  },
+  {
+      name: 'Certified Professional in Human Resource',
+      values: {
+          
+          ' November, 2005, ': true, }
+          
+  },
+  
+  {
+      name: 'SHRM Certified Professional',
+      values: {
+          
+          'August,2006': true,  
+      },
+  },
+]
 
-  certificates: Certification = {
-    title:'Certified Professional in Learning and Performance',
-    year:'june,2005',
-  };
   constructor() { }
 
   ngOnInit() {
